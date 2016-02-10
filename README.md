@@ -111,7 +111,7 @@ Ok, we've finished configuring the cell.
         if cell is FoldingCell {
             let foldingCell = cell as! FoldingCell
 
-            if cellHeights![indexPath.row] == kCloseCellHeight {
+            if cellHeights[indexPath.row] == kCloseCellHeight {
                 foldingCell.selectedAnimation(false, animated: false, completion:nil)
             } else {
                 foldingCell.selectedAnimation(true, animated: false, completion: nil)
